@@ -1,0 +1,32 @@
+{
+  "name": "rock288-elysia",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "lint": "eslint --ext .ts src",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "@elysiajs/cookie": "^0.7.0",
+    "@elysiajs/cors": "^0.7.1",
+    "@elysiajs/jwt": "^0.7.0",
+    "colors": "^1.4.0",
+    "elysia": "latest",
+    "elysia-helmet": "^1.0.1",
+    "http-status": "^1.7.4",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "bun-types": "latest",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.0.3"
+  },
+  "module": "src/index.js"
+}
